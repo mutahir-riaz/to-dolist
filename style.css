@@ -1,0 +1,79 @@
+body{
+
+    background: linear-gradient(135deg,#265a92,#044d55);
+}
+#empty{
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    margin-left: 30px;
+    background-color: rgb(17, 128, 0);
+    
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#empty:hover{
+    background-color: rgba(17, 128, 0, 0.869);
+
+}
+.todo{
+    background-color: white;
+    color: black;
+    /* height: 80vh; */
+    max-width: 540px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: relative;
+    left: 420px;
+    top: 70px;
+    border-radius: 10px;
+}
+.input-area{
+    position: relative;
+     left: 90px; 
+    /* top: 50px;     */
+}
+.input-area input{
+    width: 280px;
+    background: #edeef0;
+    height: 40px;
+    border-color:transparent;
+    outline: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.input-area button{
+    background-color: rgb(17, 128, 0);
+    color: aliceblue;
+    font-family: sans-serif;
+    outline: 0px;
+    border-color: transparent;
+    margin-left: 5px;
+    width: 90px;
+    border-radius: 20px;
+    height: 37px;
+}
+#task-list{
+    position: relative;
+    left: 5px; 
+    top: 30px;  
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#task-list li {
+    list-style: none;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: black !important;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cutter{
+    color: #555;
+    text-decoration: line-through;
+}
